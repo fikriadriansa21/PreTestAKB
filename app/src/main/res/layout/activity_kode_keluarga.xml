@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".KodeKeluargaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/backgroundStyle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kode_keluarga_title"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="24sp"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:maxLines="2"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_text_kode_keluarga"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="start"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+        <EditText
+            android:id="@+id/et_kode_referal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:inputType="textCapCharacters"
+            android:layout_marginStart="20dp"
+            android:maxLength="6"
+            android:fontFamily="@font/rubik_medium"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edit_text_border_shape"/>
+        <TextView
+            android:maxLines="2"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agreement_text"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_masuk"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:shadowColor="@color/shadow"
+        android:background="@drawable/background_bottom"/>
+
+    <LinearLayout
+        android:id="@+id/linear_bg2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asking_kode_keluarga_text"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/rubik_regular"
+            android:textSize="13sp"/>
+        <Button
+            android:id="@+id/btn_beli_kode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_kode_keluarga"/>
+    </LinearLayout>
+</LinearLayout>

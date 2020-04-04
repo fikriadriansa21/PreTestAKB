@@ -12,8 +12,8 @@ class OnBoardingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_oboarding)
         //Nim : 10117128
         //Nama : Fikri Adriansa Yudha
-        //commit : 3 April 2020, set intent dari halaman sambutan ke halaman kode keluarga, bikin layout tampilan pembuka (awal), nambahin empty activity KodeKeluargaActivity
-        btn_masuk.setOnClickListener {
+        //commit : 4 April 2020, set intent dari halaman KodeKeluargaActivity ke halaman UserRegistrationActivity, bikin layout User Registration, set Logic 6 character inputan dan all text Capslock default
+        btn_mulai.setOnClickListener {
             // Handler code here.
             val intent = Intent(this, KodeKeluargaActivity::class.java)
             startActivity(intent)
