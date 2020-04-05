@@ -9,4 +9,5 @@
     <string name="hint_et_nama_panggilan">Contoh : Budi</string>
     <string name="tv_umur_title">Umur Kamu</string>
     <string name="hint_et_umur">Contoh : 12</string>
+    <string name="selesai_text">Selesai</string>
 </resources>
