@@ -3,7 +3,7 @@
     <string name="gambar_pembuka">Gambar pembuka</string>
     <string name="kode_keluarga_title">Kode Keluarga</string>
     <string name="description_text_kode_keluarga">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
-    <string name="agreement_text">Dengan menekan tombol masuk, berarti Anda menyetujui Ketentuan Pengguna dan Kebijakan data kami</string>
+    <string name="agreement_text">Dengan menekan tombol masuk, berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
     <string name="asking_kode_keluarga_text">Belum punya kode keluarga ?</string>
     <string name="nama_panggilan_title_text">Nama Panggilan Kamu</string>
     <string name="hint_et_nama_panggilan">Contoh : Budi</string>
