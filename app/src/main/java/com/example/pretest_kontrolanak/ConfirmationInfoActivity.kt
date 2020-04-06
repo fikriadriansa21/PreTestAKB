@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_confirmation_info.*
 //Nim : 10117128
 //Nama : Fikri Adriansa Yudha
 //commit : 4 April 2020, set intent dari halaman KodeKeluargaActivity ke halaman UserRegistrationActivity, bikin layout User Registration, set Logic 6 character inputan dan all text Capslock default
-
+//IF4
 
 class ConfirmationInfoActivity : AppCompatActivity() {
 

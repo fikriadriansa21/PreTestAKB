@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 //Nim : 10117128
 //Nama : Fikri Adriansa Yudha
+//IF4
 //commit : 5 April 2020, set intent dari halaman UserRegistrationActivity ke halaman ConfirmationInfoActivity, bikin layoutConfirmationInfoActivity, pass value edit text nama panggilan menggunakan putExtra
 
 class UserRegistrationActivity : AppCompatActivity() {
